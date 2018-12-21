@@ -19,7 +19,7 @@
   export default class MyRouter extends Router {
     @Request({ url: '/myurl', method: 'post' })
     async login(ctx: any, next: any){
-        ctx.body = 'hello world'
+      ctx.body = 'hello world'
     }
   }
 ```
