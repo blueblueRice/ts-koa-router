@@ -14,6 +14,7 @@
 #### 使用(基于koa2)
 ```javascript
   import Router from 'koa-router'
+  const { Controller, Request } = decorators
 
   @Controller({ prefix: '/api' })
   export default class MyRouter extends Router {
