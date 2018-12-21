@@ -1,7 +1,7 @@
 import Request from './request'
 import Controller from './controller'
 
-export {
+export default {
 	Request,
 	Controller
 }
