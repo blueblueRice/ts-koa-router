@@ -1,6 +1,6 @@
 {
   "name": "bluebluerice-ts-koa-router",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "koa的router装饰器(基于ts)",
   "main": "./dist/index.js",
   "scripts": {

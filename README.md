@@ -24,3 +24,8 @@
     }
   }
 ```
+
+### 更新
+```javascript
+  import{ Request, Controller, GET, PUT, POST, DELETE } from 'bluebluerice-ts-koa-router'
+```

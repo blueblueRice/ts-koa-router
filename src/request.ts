@@ -4,7 +4,7 @@ interface RequestObj {
 }
 
 export default function (obj: RequestObj) {
-  return function (target: any, name: any, descriptor: any) {
+  return function (_target: any, _name: any, descriptor: any) {
     const fn = descriptor.value
 
     descriptor.value = (router: any): void => {
