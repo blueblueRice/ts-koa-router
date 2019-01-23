@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 function default_1(obj) {
-    return function (target, name, descriptor) {
+    return function (_target, _name, descriptor) {
         const fn = descriptor.value;
         descriptor.value = (router) => {
             router[obj.method](obj.url, async (ctx, next) => {
