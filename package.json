@@ -1,6 +1,6 @@
 {
   "name": "bluebluerice-ts-koa-router",
-  "version": "1.3.2",
+  "version": "1.4.2",
   "description": "koa的router装饰器(基于ts)",
   "main": "./dist/index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/blueblueRice/ts-koa-router/issues"
   },
-  "homepage": "https://github.com/blueblueRice/ts-koa-router#readme"
+  "homepage": "https://github.com/blueblueRice/ts-koa-router#readme",
+  "devDependencies": {
+    "ts-node": "^8.1.0"
+  }
 }
